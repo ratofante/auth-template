@@ -15,7 +15,17 @@
     "rootDirs": [".", "./.react-router/types"],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "@/*": ["./app/*"],
+      "@views/*": ["./app/views/*"],
+      "@routes/*": ["./app/routes/*"],
+      "@components/*": ["./app/components/*"],
+      "@lib/*": ["./app/lib/*"],
+      "@contexts/*": ["./app/contexts/*"],
+      "@hooks/*": ["./app/hooks/*"],
+      "@utils/*": ["./app/utils/*"],
+      "@styles/*": ["./app/styles/*"],
+      "@types/*": ["./app/types/*"],
+      "@assets/*": ["./app/assets/*"]
     },
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
